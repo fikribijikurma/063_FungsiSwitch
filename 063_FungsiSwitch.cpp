@@ -39,7 +39,15 @@ int main()
 		cout << "2. Pembagian " << endl; 
 		cout << "3. Perkalian " << endl;
 		cout << "4. Pengurangan " << endl;
-		cout << "============================" << endl;
-		cout << "============================" << endl;
+		cout << "5. EXIT " << endl;
+		cout << "Masukan Pilihan 1/2/3/4/5 :" ;
+		cin >> pilihan;
+	}
+	switch (pilihan)
+	{
+	case 1:
+		input();
+		cout << "Hasil Penjumlahan = " << Penjumlahan(bilSatu, bilDua) << endl;
+		break;
 	}
 }
