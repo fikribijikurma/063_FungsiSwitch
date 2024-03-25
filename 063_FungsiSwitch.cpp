@@ -5,5 +5,11 @@ int bilSatu, bilDua;
 
 void input()
 {
-	cout <<
+	cout << "Masukan Bilangan pertama = ";
+	cin >> bilSatu;
+	cout << "Masukan Bilangan keDua = ";
+	cin >> bilDua;
+
 }
+float penjumlahan(float a, float b)
+{}
