@@ -49,9 +49,20 @@ int main()
 		input();
 		cout << "Hasil Penjumlahan = " << Penjumlahan(bilSatu, bilDua) << endl;
 		break;
-	case 1:
+	case 2:
 		input();
 		cout << "Hasil Pembagian = " << Pembagian(bilSatu, bilDua) << endl;
+		break;
+	case 3:
+		input();
+		cout << "Hasil Perkalian = " << Perkalian(bilSatu, bilDua) << endl;
+		break;
+	case 4:
+		input();
+		cout << "Hasil Pengurangan = " << Pengurangan(bilSatu, bilDua) << endl;
+		break;
+	case 5:
+		cout << "Pilihan tidak ada" << endl;
 		break;
 
 	}
