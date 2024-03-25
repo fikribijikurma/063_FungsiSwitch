@@ -5,5 +5,5 @@ int bilSatu, bilDua;
 
 void input()
 {
-	cout 
+	cout <<
 }
